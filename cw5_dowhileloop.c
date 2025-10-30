@@ -56,6 +56,7 @@ void main(){
 			lowestBill = bill;
 		}
 		printf("Total Bill for customer %d: $%.2f \n", i, bill);
+		i++;
 	}while(i < numOfCustomers);
 
 
